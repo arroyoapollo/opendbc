@@ -867,17 +867,26 @@ FW_VERSIONS = {
     ],
   },
   CAR.HYUNDAI_ELANTRA_HEV_2021: {
+    (Ecu.combinationMeter, 0x7C6, None): [
+      b'\xf1\x00170',
+    ],
+    (Ecu.cornerRadar, 0x7B7, None): [
+      b'\xf1\x003D',
+    ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.03 99210-AA000 200819',
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.05 99210-AA000 210930',
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.07 99210-AA000 220426',
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.08 99210-AA000 220728',
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.09 99210-AA000 221108',
+      b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.02 99210-AA500 230420',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00CN7_ RDR -----      1.00 1.01 99110-AA500         ',
       b'\xf1\x00CNhe SCC FHCUP      1.00 1.01 99110-BY000         ',
     ],
     (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00CN7 MDPS C 1.00 1.00 56300BY670\x00 4CSHC100',
       b'\xf1\x00CN7 MDPS C 1.00 1.02 56310/BY050 4CNHC102',
       b'\xf1\x00CN7 MDPS C 1.00 1.03 56310/BY050 4CNHC103',
       b'\xf1\x00CN7 MDPS C 1.00 1.03 56310BY050\x00 4CNHC103',
@@ -1139,4 +1148,4 @@ FW_VERSIONS = {
       b'\xf1\x00US4_ RDR -----      1.00 1.00 99110-CG000         ',
     ],
   },
-}
+},
