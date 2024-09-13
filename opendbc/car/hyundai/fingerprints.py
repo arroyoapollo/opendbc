@@ -867,12 +867,6 @@ FW_VERSIONS = {
     ],
   },
   CAR.HYUNDAI_ELANTRA_HEV_2021: {
-    (Ecu.combinationMeter, 0x7C6, None): [
-      b'\xf1\x00170',
-    ],
-    (Ecu.cornerRadar, 0x7B7, None): [
-      b'\xf1\x003D',
-    ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.03 99210-AA000 200819',
       b'\xf1\x00CN7HMFC  AT USA LHD 1.00 1.05 99210-AA000 210930',
